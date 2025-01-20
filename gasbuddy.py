@@ -61,13 +61,13 @@ try:
         df.to_excel('gas_station_data.xlsx', index=False)
 
         print(f"Station Name: {name}")
-        print(f"Rating: {rating} stars")
+        print(f"Rating: {rating} rating")
         print(f"Address: {address}")
         print(f"Price: {price}")
         print("-" * 40)
-        print("DATA HAS BEEN SAVED TO 'gas_station_data.xlsx' AS WELL.")
+        
 
-    print("DATA HAS BEEN SAVED TO 'gas_station_data.xlsx' AS WELL. \n\n\n\n")
+    print("\n\nDATA HAS BEEN SAVED TO 'gas_station_data.xlsx' AS WELL. \n\n\n\n")
     time.sleep(20)
 
 finally:
