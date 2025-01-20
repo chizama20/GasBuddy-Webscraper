@@ -57,6 +57,7 @@ try:
             'Price': price
         })
 
+        #add to excel
         df = pd.DataFrame(scraped_data)
         df.to_excel('gas_station_data.xlsx', index=False)
 
